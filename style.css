@@ -169,10 +169,15 @@ footer h4{
     font-weight: bold;
 }
 
-@media (max-width: 800px){
+@media (max-width: 768px){
+    .cards_container{
+        flex-direction: column;
+        align-items: center;
+    }      
+}
 
+@media (max-width: 1024px){
     .header-logo{
-        margin-left: 15px;
         font-size: 18px;
         letter-spacing: 1.5px;
     }
@@ -190,11 +195,13 @@ footer h4{
     }
 
     .card{
-    width: 95%;
+        width: 95%;
+        max-width: 350px;
     }
     
     .cards_container{
-        flex-direction: column;
-        align-items: center;
+        display: flex;flex-wrap: wrap;
     }
 }
+
+
