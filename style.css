@@ -1,6 +1,5 @@
 body{
     font-family: 'Nunito', sans-serif;
-    text-align: center;
     background: #F6F6F7;
     margin: 0;
 }
@@ -125,6 +124,20 @@ h1{
 .size:hover{
     -webkit-filter:grayscale(100%);
 }
+
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infos i{
+    font-size: 20px;
+}
+
+.infos i:hover{
+    color: #C2959C;
+}
+
 
 a{
     text-decoration: none;
