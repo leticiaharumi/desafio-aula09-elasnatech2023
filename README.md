@@ -2,7 +2,7 @@
 ### 💼 Mini Site Responsivo
 
 - Mini site responsivo, usando HTML & CSS
-- Contém menu e cards com receitas e imagens.
+- Contém menu e imagens com links para receitas.
 
 💙 [Clique aqui para ver](https://desafio-aula09-leticiauemura.netlify.app/)
 
